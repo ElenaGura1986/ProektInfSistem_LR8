@@ -37,7 +37,7 @@ public class App {
             out.println("String \"" + dup.getKey() + "\" occurs " + dup.getValue() + " times");
         }
 
-        
+        list = new LimitedStringList(7);
         list.loadFromFile("file.xml");
         out.println("\nLoaded from XML:");
         out.println(list);
